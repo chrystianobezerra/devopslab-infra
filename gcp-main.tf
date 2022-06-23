@@ -1,5 +1,5 @@
 # Cria uma VM no Google Cloud
-resource "google_compute_instance" "firstvm" {
+resource "google_compute_instance" "secondvm" {
   name         = "helloworld"
   machine_type = "us-west1"
   zone         = "us-west1-b"
