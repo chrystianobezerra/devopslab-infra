@@ -1,8 +1,8 @@
 # Cria uma VM no Google Cloud
 resource "google_compute_instance" "firstvm" {
   name         = "helloworld"
-  machine_type = "southamerica-east1"
-  zone         = "southamerica-east1-b"
+  machine_type = "us-west1"
+  zone         = "us-west1-b"
 
   # Defini a Imagem da VM
   boot_disk {

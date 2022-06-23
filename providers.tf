@@ -11,5 +11,4 @@ terraform {
 provider "google" {
     project = "lab-devops-cloud-354023"
     region  = "us-west1"
-    zone    = "us-west1-b"
 }
